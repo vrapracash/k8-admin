@@ -4,16 +4,16 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
-      rolearn: arn:aws:iam::315069654700:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-s5iLLwbCscFS
+      rolearn: arn:aws:iam::116981771137:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-U7RcZSgtpAyG
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
       - expense-trainee
-      userarn: arn:aws:iam::315069654700:user/suresh
+      userarn: arn:aws:iam::116981771137:user/veera
       username: veera
     - groups:
       - expense-admin
-      userarn: arn:aws:iam::315069654700:user/ramesh
+      userarn: arn:aws:iam::116981771137:user/veera
       username: veera
 kind: ConfigMap
 metadata:

@@ -20,7 +20,7 @@ roleRef:
 subjects:
 - apiGroup: rbac.authorization.k8s.io
   kind: User
-  name: suresh
+  name: surya
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
@@ -44,7 +44,7 @@ roleRef:
 subjects:
 - apiGroup: rbac.authorization.k8s.io
   kind: User
-  name: ramesh
+  name: veera
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
@@ -62,7 +62,7 @@ metadata:
   name: expense
 subjects:
 - kind: User
-  name: ramesh # Name is case sensitive
+  name: veera # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
