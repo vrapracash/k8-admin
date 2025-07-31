@@ -13,8 +13,8 @@ data:
       username: veera
     - groups:
       - expense-admin
-      userarn: arn:aws:iam::116981771137:user/veera
-      username: veera
+      userarn: arn:aws:iam::116981771137:user/surya
+      username: surya
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-07-31T17:19:33Z"
