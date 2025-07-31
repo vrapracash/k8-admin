@@ -17,7 +17,7 @@ data:
       username: veera
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2025-07-30T15:44:24Z"
+  creationTimestamp: "2025-07-31T17:19:33Z"
   name: aws-auth
   namespace: kube-system
-  uid: 077cf61c-c793-485a-bc02-f8f0d9ef8885
+  uid: c3a9aa82-fc28-4353-af4f-1065ebf3770d
