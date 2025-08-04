@@ -17,7 +17,7 @@ data:
       username: surya
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2025-07-31T17:19:33Z"
+  creationTimestamp: "2025-08-04T11:09:49Z"
   name: aws-auth
   namespace: kube-system
-  uid: c3a9aa82-fc28-4353-af4f-1065ebf3770d
+  uid: 720c9e81-0552-4122-a197-fe2b19fb7b2c
